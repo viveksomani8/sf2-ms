@@ -1,0 +1,7 @@
+pgms:
+    resource: "@PGMSBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
